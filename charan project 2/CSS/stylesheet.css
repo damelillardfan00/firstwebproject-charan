@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'BrightChalk';
+    src: url("../fonts/Bright\ Chalk.ttf")format('truetype');
+    font-weight: normal;
+    font-style: normal; 
+}
+/* how to add custom font*/
+
+body {
+    background-color: rgb(255, 99, 99);
+}
+/* background color */
+
+
+.navbar {
+    color: white;
+    display: flex;
+    background-color: red;
+}
+/* Navbar styles */
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: red;
+}
+
+.navbar li {
+    float: left;
+    margin: 10px;
+}
+
+.navbar a {
+    color: white;
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    background-color: red;
+    font-size: 45px;
+    font-family: 'BrightChalk';
+}
+
+.navbar p {
+    color: white;
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    background-color: red;
+    font-size: 45px;
+    font-family: 'BrightChalk';
+}
+.navbar:hover{
+    color: blue;
+}
+/*styling for my navbar list*/
+
+.footer {
+    color: white;
+    display: flex;
+    background-color: red;
+}
+.footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: red;
+}
+
+.footer li {
+    float: left;
+    margin: 10px;
+}
+
+.footer a {
+    font-display: flex;
+    color: white;
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    background-color: red;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.footer p {
+    font-display: flex;
+    color: white;
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    background-color: red;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif
+}
+.footer:hover{
+    color: blue;
+}
+
+/* styling for my footer list*/
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: yellow;
+    font-family: 'BrightChalk';
+}
+
+#map-heading {
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+/*styling for a specific header*/
+
+p {
+    color: white;
+    font-size: 35px;
+    font-family: 'BrightChalk';
+    text-align: center;
+}
+/* Headings and paragraphs styling*/
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Center images */
+
+iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Center iframe*/
+#link-back{
+    color: yellow;
+    font-size: 50px;
+    font-family: 'BrightChalk';
+    margin-left: auto;
+    margin-right: auto;
+}
+/*next page link*/
+#symbol{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 360px;
+    height: 360px; 
+}
