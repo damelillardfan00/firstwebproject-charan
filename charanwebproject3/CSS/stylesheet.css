@@ -1,0 +1,187 @@
+/* For my website I decided to use a monochromatic theme, I decided to use this because I wanted to keep it simple and easy to read with no ugly type design.
+
+for my primary colour I decided to use #96C7F0 or a baby blue color, I decided to use this as 1st of all my target audience are young kids,
+so I decided to use a friendly yet bright colour, that being baby blue. My 2nd resoning is because treaty 5 wasnt exactly the best treaty by any means,
+it was quite poorly constructed with cheap getaway tactics by the government, so the blue also represents the coldness that the people might've felt.
+but definitely just because of how bright and eye catching the colour is.
+
+For my secondary colour I decided to use #6AAFEA or a sky blue color, I decided to use it because first I wanted to use a monochromatic theme,
+with that the darker shade allows me to include a good looking transition between more eyecatching pieces of my website, and ones that don't need the highlighting.
+
+for my shades I used 2 shades of dark gray--> #2B2B2BF2 and #0D0D0De3 to keep my ratio proper
+
+this color scheme should allow me to keep a light theme throughout, keeping my contrast ratio around 7:1*/
+
+
+
+/*how I added custom font*/
+@font-face {
+    font-family: 'BrightChalk, sans-serif'; /*this is the name of the font I downloaded*/
+    src: url("../fonts/Bright\ Chalk.ttf")format('truetype'); /*how to link fonts to CSS*/
+    font-weight: normal;
+    font-style: normal; 
+}
+/* turns background color to baby blue*/
+body {
+    background-color: #96C7F0;
+}
+
+/* My navbar styles*/
+.navbar {
+    color: #0D0D0De3; /*This turns the font dark gray*/
+    display: flex; /*this allows my navbar to be displayed left to right*/
+    background-color: #6AAFEA; /*this turns the background of my words sky blue*/
+}
+
+/* styling for my navbar list */
+.navbar ul {
+    list-style-type: none; /*makes it so list doesnt have typing*/
+    padding: 0; /*turns the padding to 0*/
+    overflow: hidden; /*any text overflow cuts off*/
+}
+
+/*navbar list item styling*/
+.navbar li {
+    float: left; /*auto floats content to left*/
+}
+
+/*navbar link styling*/
+.navbar a {
+    text-decoration: none; /*adds no text decor*/
+    font-size: 45px;/*font size to 45px*/
+    font-family: 'BrightChalk, sans-serif';/*brightchalk font>https://www.dafont.com/bright-chalk.font*/
+    transform: box-shadow 0.3s ease; /*makes it so transmformation takes 0.3seconds*/
+    color: #0D0D0De3; /*This turns the font dark gray*/
+    margin: 10px; /*turns margin size to 10px*/
+    padding: 0px; /*turns padding size to 0px*/
+    display: block; /*turns display to take full space*/
+}
+
+/*adds hover effect to links*/
+.navbar a:hover {
+    color: #96C7F0; /*turns font color to baby blue*/
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);/*adds shadow effect*/
+}
+
+/*navbar paragraph styling*/
+.navbar p {
+    margin: 10px; /*turns margin size to 10px*/
+    padding: 0px; /*turns padding size to 0px*/
+    text-decoration: none; /*adds no text decor*/
+    font-size: 45px; /*turns font size to 45px*/
+    font-family: 'BrightChalk, sans-serif'; /*makes it so it uses brightchalk font>https://www.dafont.com/bright-chalk.font*/
+}
+
+/*footer styles*/
+.footer {
+    color: #0D0D0De3; /*This turns the font dark gray*/
+    display: flex; /*this allows my navbar to be displayed left to right*/
+    background-color: #6AAFEA; /*this turns the background of my words sky blue*/
+}
+
+/*styling for my footer list*/
+.footer ul {
+    list-style-type: none; /*makes it so list doesnt have typing*/
+    overflow: hidden;/*any text overflow cuts off*/
+    background-color: #6AAFEA; /*this turns the background of my words sky blue*/
+}
+
+/*styling for my footer list items*/
+.footer li {
+    float: left; /*auto floats content to left*/
+    margin: 10px; /*turns margin size to 10px*/
+}
+
+/*styling for my footer links*/
+.footer a {
+    font-display: flex; /*turns font to flex*/
+    color: #0D0D0De3; /*This turns the font dark gray*/
+    text-align: left; /*aligns text to the left*/
+    padding: auto; /*turns padding size to 0px*/
+    margin: auto; /*turns margin size to 0px*/
+    text-decoration: none; /*adds no text decor*/
+    background-color: #6AAFEA; /*this turns the background of my words sky blue*/
+    font-size: 20px; /*turns font size to 20px*/ 
+    font-family:'Times New Roman', Times, serif; /*makes it use times new roman font*/
+}
+
+/*styling for my footers pargraph*/
+.footer p {
+    font-display: flex; /*turns font to flex*/
+    color: #0D0D0De3; /*This turns the font dark gray*/
+    text-align: left; /*aligns text to the left*/
+    padding: auto; /*turns padding size to 0px*/
+    margin: auto; /*turns margin size to 0px*/
+    text-decoration: none; /*adds no text decor*/
+    background-color: #6AAFEA; /*this turns the background of my words sky blue*/
+    font-size: 20px; /*turns font size to 20px*/
+    font-family:'Times New Roman', Times, serif; /*makes it use times new roman font*/
+}
+
+/*styling for header*/
+h1{
+    text-align: center; /*aligns text to center*/
+    font-size: 64px; /*turns font size to 50px*/
+    color: #2B2B2BF2; /*turns font color to dark gray*/
+    font-family: 'BrightChalk, sans-serif'; /*makes it so it uses brightchalk font>https://www.dafont.com/bright-chalk.font*/
+}
+
+/*styling for my map heading*/
+#map-heading {
+    text-align: center; /*aligns text to center*/
+    font-size: 40px; /*turns font size to 35px*/
+    color: #2B2B2BF2; /*turns font color to dark gray*/
+}
+
+/*styling for my paragraph*/
+p {
+    color: #2B2B2BF2; /*turns font color to dark gray*/
+    font-size: 32px; /*turns font size to 35px*/
+    font-family: 'BrightChalk, sans-serif'; /*makes it so it uses brightchalk font>https://www.dafont.com/bright-chalk.font*/
+    text-align: center; /*aligns text to center*/
+    margin-left: 265px;  /*margin to control spacing*/
+    margin-right: 265px; /*margin to control spacing*/
+    line-height: 44.8px; /*turns line height to 44.8px*/
+}
+
+/* Centers the images */
+img {
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Centers the iframe*/
+#video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*styling for my link back*/
+#link-back{
+    color: #2B2B2BF2; /*turns font color to dark gray*/
+    font-size: 40px; /*turns font size to 50px*/
+    font-family:'BrightChalk, sans-serif'; /*makes it so it uses brightchalk font>https://www.dafont.com/bright-chalk.font*/
+    margin-left: auto; /*makes it so the margin aligns it to the center*/
+    margin-right: auto; /*makes it so the margin aligns it to the center*/
+    text-decoration: underline; /*adds underline*/
+    text-align: center; /*aligns text to center*/
+}
+
+/*styling for my specific image*/
+#symbol{
+    display: block; /*turns display to block*/
+    margin-left: auto; /*makes it so the margin aligns it to the center*/
+    margin-right: auto; /*makes it so the margin aligns it to the center*/
+    width: 360px; /*turns width to 360px*/
+    height: 360px; /*turns height to 360px*/
+}
+
+.OGimg{
+    color: blue; /*turns font color to blue*/
+    text-decoration: underline; /*adds underline*/
+    font-size: 16px; /*turns font size to 16px*/
+    font-family: 'Times New Roman', Times, serif; /*makes it so it uses times new roman font*/
+    text-align: center; /*aligns text to center*/
+}
